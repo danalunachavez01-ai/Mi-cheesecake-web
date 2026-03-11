@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GALERIAAA. </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 30px 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff10;
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    footer {
+      margin: 30px 0;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✨ GALERIAAA. ✨</h1>
+
+  <div class="container">
+
+    <div class="card" onclick="mostrar('Dormir es lo mejor.')">
+      <img src="./gato durmiendo.jpg">
+      <h3>1.</h3>
+      <p>Dormir.</p>
+    </div>
+
+    <div class="card" onclick="mostrar('Comer tambien es lo mejor.')">
+      <img src="./gato comiendo.jpg">
+      <h3>2.</h3>
+      <p>Comer.</p>
+    </div>
+
+    <div class="card" onclick="mostrar('Una vez al año pero jeje.')">
+      <img src="./gato ejercicio.jpg">
+      <h3>3.</h3>
+      <p>Ejercicio.</p>
+    </div>
+
+    <div class="card" onclick="mostrar('Lo mismo pero cuenta.')">
+      <img src="./gato jugando.jpg">
+      <h3>4.</h3>
+      <p>Jugar.</p>
+    </div>
+
+        <div class="card" onclick="mostrar('Siempreeee.')">
+      <img src="./gato leyendo.jpg">
+      <h3>5.</h3>
+      <p>Leer.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    Hecho por Lunaaa.
+  </footer>
+
+  <script>
+    function mostrar(mensaje) {
+      alert(mensaje);
+    }
+  </script>
+
+</body>
+</html>

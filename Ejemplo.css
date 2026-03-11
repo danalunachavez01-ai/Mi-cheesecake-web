@@ -1,0 +1,33 @@
+.menu{
+     padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(175, 43, 43);
+}
+a{
+   font-size: 30px; 
+}
+a:hover{
+    font-size: 40px;
+    background-color: rgb(151, 211, 230);
+}
+h1 {
+    text-align: center; 
+    width: 100%;        
+    margin-top: 20px;  
+}
+.lista-vertical {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 15px;             
+}
+
+.enlace1 { color: #ff5e57; border: 2px solid #57ff65; } 
+.enlace2 { color: #6490bd; border: 2px solid #1e90ff; } 
+.enlace3 { color: #ffa502; border: 2px solid #ffa502; } 
+.enlace4 { color: #2ed573; border: 2px solid #89b19a; }
+.enlace4 { color: #2ed573; border: 2px solid #89b19a; } 

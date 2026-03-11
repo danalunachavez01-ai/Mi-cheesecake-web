@@ -1,0 +1,93 @@
+#main-header {
+    background-color: #D00000; 
+    color: #FFF5F5;           
+    padding: 20px;
+    text-align: center;
+} 
+/* estilooooo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#main-header {
+    background-color: #f8f1e5; 
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #FFB3C1; 
+}
+
+h1 {
+    color: #ff9edf;
+    margin-bottom: 10px;
+}
+
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #FFB3C1;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #ffd0ef; /* Color mermelada de fresa al pasar el mouse */
+}
+#hero-section {
+    border: 5px solid #FFB3C1; 
+    border-radius: 15px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #ffffff; 
+    text-align: center;
+}
+
+#btm-acciones {
+    background-color: #D00000; 
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 25px;     
+    cursor: pointer;
+    border: 2px solid #FFB3C1;
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Hace que el cambio sea suavejito */
+    
+}
+#btm-acciones:hover {
+    background-color: #FFB3C1; /* Cambia a rosa al pasar el coso este*/
+    color: #D00000;           /* El texto se pone rojito ejeje */
+    transform: scale(1.05);    /* El botón se agranda un pokito */
+    box-shadow: 0px 5px 15px rgba(228, 151, 151, 0.714);
+    text-align: center;
+} 
+
+#navbar {
+    background-color: #F5D29E; 
+    width: 200px;
+    box-shadow: 2px 0px 8px #FFB3C1; 
+}
+
+#footer-contact {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFB3C1; 
+    color: #D00000;           
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    background-color: #FFF5F5; 
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,30 @@
+.Galeria{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item img{
+    width: 200px;
+    height: 150px; /*alto*/
+    object-fit: cover; /* mantiene la proporcion de la forma de la imagen*/
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0.4px rgb(255, 255, 255) rgb(255, 255, 255) cornflowerblue rgb(255, 255, 255);
+
+
+}
+
+figcaption {
+    -ms-flex-align: center;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: rgb(255, 255, 255); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item img:hover{
+    transform: scale(1.05); /*efecto zoom*/
+
+}

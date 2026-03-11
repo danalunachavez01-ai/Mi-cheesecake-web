@@ -1,0 +1,65 @@
+
+    body {
+        background-color: #90604c; 
+        color: #694937;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 40px;
+        line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+        color: #deb19d; 
+        border-bottom: 2px solid #7b7167;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    img {
+        border: 3px solid #e1d3b6;
+        border-radius: 10px; 
+        margin: 10px;
+        box-shadow: 0px 5px 15px (7, 31, 40); 
+        transition: transform 0.3s; 
+    }
+
+    img:hover {
+        transform: scale(1.05); 
+    }
+
+    section {
+        background-color: #c0a290;
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+
+    ul, ol {
+        background-color: #e9e6e1;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+
+    li {
+        margin-bottom: 10px;
+        color: #90604c;
+    }
+    
+#btm-acciones {
+    background-color: #694937; 
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 25px;     
+    cursor: pointer;
+    border: 2px solid #c0a290;
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Hace que el cambio sea suavejito */
+    
+}
+#btm-acciones:hover {
+    background-color: #e1d3b6; /* Cambia a rosa al pasar el coso este*/
+    color: #90604c;           /* El texto se pone rojito ejeje */
+    transform: scale(1.05);    /* El botón se agranda un pokito */
+    box-shadow: 0px 5px 15px rgba(228, 151, 151, 0.714);
+    text-align: center;
+} 

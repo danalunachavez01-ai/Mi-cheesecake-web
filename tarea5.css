@@ -1,0 +1,237 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #fcf8f5; 
+    color: #333;
+    text-align: center;
+}
+
+/* 2. Header y Menú */
+header {
+    background-color: #2d1b15; 
+    color: white;
+    padding: 20px 0;
+    position: sticky; /*  Esto deja el menú fijo arriba mientras bajas y se ve cul jeje */
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff85a1; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff85a1; /* Cambia a rositaaaa cuando pasas el mouse */
+}
+
+/* Secciones Principales */
+.hero {
+    padding: 80px 10% 40px; 
+}
+
+.hero h2 {
+    color: #2d1b15;
+    font-size: 2.5rem;
+}
+
+/* Misión y Meta */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-top: 5px solid #ff85a1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: left;
+}
+.card {
+    background: white;
+    border-top: 5px solid #ff85a1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+
+    width: 80%;            /* Se estiran para ocupar la mayor parte del anshoooo */
+    max-width: 900px;      
+    min-width: 300px;      /* Para que en el cel no se rompan y hagan clak */
+    
+    padding: 30px;         /* Un poco más de espacito */
+    text-align: left;
+    margin-bottom: 10px;   /* Separación por si se ponen una arriba de otra como los gatikos sjkajsa */
+}
+
+/*  Contenedor de los sabores */
+.sabores-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.cardcheesecake {
+    background: white; 
+    border-radius: 15px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardcheesecake:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(255, 133, 161, 0.3);
+}
+
+.cardcheesecake img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+/* . Botones y extras cosas */
+.btn-acciones {
+    background-color: #ff85a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-acciones:hover {
+    background-color: #2d1b15;
+}
+
+/* Estilo para la sección de contakto */
+#contacto {
+    background-color: #2d1b15;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+#contact {
+
+
+
+    max-width: 600px; /* Para que no se estire demasiado en pantallas grandotas */
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+
+
+
+
+}
+
+#contact h4 {
+    color: #2d1b15; /* Marrón chocolate pupu */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Línea decorativa debajo del título pa ke sea bonito */
+#contact h4::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ff85a1; 
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Para que las etiquetas se alineen hajia a la izquierda */
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/* Efecto cuando haces tak tak al escribir */
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #ff85a1;
+    box-shadow: 0 0 8px rgba(255, 133, 161, 0.2);
+    background-color: #fffafb;
+}
+
+/* Estilo del botón de enviar */
+.btn-submit {
+    background-color: #ff85a1; 
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #2d1b15; /* Cambia a color pupu al pasar el mouse */
+    transform: translateY(-2px); /* Pequeño saltko hacia arriba */
+}
+
+.btn-submit:active {
+    transform: translateY(0);
+}
