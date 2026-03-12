@@ -235,3 +235,10 @@ nav a:hover {
 .btn-submit:active {
     transform: translateY(0);
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eea4a4; /* Puedes cambiar el color */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
